@@ -4,7 +4,7 @@ import turtle
 # window
 win = turtle.Screen()
 win.title("--Pong--")
-win.bgcolor('forestgreen')
+win.bgcolor('black')
 win.setup(width = 700, height = 500)
 win.tracer(0)
 
@@ -34,7 +34,7 @@ pb.goto(300,0)
 # Ball (b for ball)
 b = turtle.Turtle()
 b.speed(0)
-b.shape('square')
+b.shape('circle')
 b.color('red')
 b.penup()
 b.goto(0,0)
@@ -44,7 +44,7 @@ b.dy = 0.2
 # Pen
 pen = turtle.Turtle()
 pen.speed(0)
-pen.color('black')
+pen.color('green')
 pen.penup()
 pen.hideturtle()
 pen.goto(0,200)
