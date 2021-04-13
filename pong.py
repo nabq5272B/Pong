@@ -48,7 +48,7 @@ pen.color('green')
 pen.penup()
 pen.hideturtle()
 pen.goto(0,200)
-pen.write('Player-A: 0   Player-B: 0', align = 'center', font =('Times New Roman', 23, 'normal'))
+pen.write('Player-A: 0   Player-B: 0', align = 'center', font =('ds-digital', 23, 'normal'))
 
 # Score
 # sc_a = score A and sc_b = score B
@@ -119,7 +119,7 @@ while True:
         b.dx *= -1
         sc_a += 5
         pen.clear()
-        pen.write(f'Player-A: {sc_a}   Player-B: {sc_b}', align = 'center', font =('Times New Roman', 23, 'normal'))
+        pen.write(f'Player-A: {sc_a}   Player-B: {sc_b}', align = 'center', font =('ds-digital', 23, 'normal'))
         
 
     if b.xcor() < -340:
@@ -127,7 +127,7 @@ while True:
         b.dx *= -1
         sc_b += 5
         pen.clear()
-        pen.write(f'Player-A: {sc_a}   Player-B: {sc_b}', align = 'center', font =('Times New Roman', 23, 'normal'))
+        pen.write(f'Player-A: {sc_a}   Player-B: {sc_b}', align = 'center', font =('ds-digital', 23, 'normal'))
         
 
     # For boncing the ball from paddle 
